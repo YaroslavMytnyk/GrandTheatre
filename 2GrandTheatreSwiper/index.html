@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grand Theatre</title>
+
+    <!--Reset style CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--Custom font icon-->
+    <link rel="stylesheet" href="libs/custom-icon/font-icon.css">
+
+    <!--Bootstrap style CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Swiper style CSS-->
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+
+    <!--My style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome icon-->
+    <script src="https://kit.fontawesome.com/80204649a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--
+
+&lt;!&ndash; Slider main container &ndash;&gt;
+<div class="swiper-container">
+    &lt;!&ndash; Additional required wrapper &ndash;&gt;
+    <div class="swiper-wrapper">
+        &lt;!&ndash; Slides &ndash;&gt;
+        <div class="swiper-slide"><img src="img/bgSection1.png"></div>
+        <div class="swiper-slide"><img src="img/bgSection1.png"></div>
+        <div class="swiper-slide"><img src="img/bgSection1.png"></div>
+        <div class="swiper-slide"><img src="img/bgSection1.png"></div>
+        <div class="swiper-slide"><img src="img/bgSection1.png"></div>
+
+    </div>
+    &lt;!&ndash; If we need pagination &ndash;&gt;
+    <div class="swiper-pagination"></div>
+
+    &lt;!&ndash; If we need navigation buttons &ndash;&gt;
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    &lt;!&ndash; If we need scrollbar &ndash;&gt;
+    <div class="swiper-scrollbar"></div>
+</div>
+
+-->
+
+
+
+<div class="menu-wrap">
+    <button class="open-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+        <img src="img/menu-icon.png">
+    </button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="false" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="close-menu" data-bs-dismiss="offcanvas" ><img src="img/close-menu.png"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="links">
+                <a class="menu-link" href="">Главная</a>
+                <a class="menu-link" href="">о театре</a>
+                <a class="menu-link" href="">Наши постановки</a>
+                <a class="menu-link" href="">партнеры театра</a>
+                <a class="menu-link" href="">контакты</a>
+            </div>
+
+            <div class="menu-icons">
+                <div class="menu-icon-row row1">
+                    <a class="icon" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="icon" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="menu-icon-row row2">
+                    <a class="icon" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="icon" href="">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="contact-info">
+    <h3 class="contact-info-title">контактная информация</h3>
+    <div class="contact-info-icon">
+        <a class="contact-link" href="">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="contact-link" href="">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="contact-link" href="">
+            <i class="fab fa-vk"></i>
+        </a>
+        <a class="contact-link" href="">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</div>
+
+<section class="welcome-part">
+    <header class="wrap-container">
+        <nav class="navigation">
+            <a class="nav-link" href="">Главная</a>
+            <a class="nav-link" href="">о театре</a>
+            <a class="nav-link" href="">Наши постановки</a>
+            <a class="nav-link" href="">партнеры театра</a>
+            <a class="nav-link" href="">контакты</a>
+        </nav>
+        <a class="number-phone">+7 495 123-45-67</a>
+    </header>
+    <div class="wrap-container welcome-part-wrap">
+        <div class="welcome-part-content">
+            <h2 class="title">Большой театр</h2>
+            <p class="text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+            <button>афиша</button>
+        </div>
+
+        <div class="slider-wrap">
+            <!-- Slider main container -->
+            <div class="swiper-container swiper1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="top-slide-img" src="img/TopSlider.png">
+                        <div class="slide-bg"><img class="top-slide-img" src="img/TopSlider.png"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="top-slide-img" src="img/CarouselSlide2.png">
+                        <div class="slide-bg"><img class="top-slide-img" src="img/CarouselSlide2.png"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="top-slide-img" src="img/TopSlider2.jpg">
+                        <div class="slide-bg"><img class="top-slide-img" src="img/TopSlider2.jpg"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="top-slide-img" src="img/CarouselSlide2.png">
+                        <div class="slide-bg"><img class="top-slide-img" src="img/CarouselSlide2.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-buttons">
+                <button class="swiper-button-prev-unique icon-arrow-left">
+                    Пред
+                </button>
+                <button class="swiper-button-next-unique icon-arrow-right">
+                    след
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="wrap-container about-section">
+    <div class="title-section"><span>o</span>театре</div>
+    <div class="about-content">
+        <div class="about-sub_section">
+            <h3 class="title-sub_section">Самый лучший театр СПБ</h3>
+            <p class="text-sub_section">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+        </div>
+        <div class="about-sub_section marlef">
+            <h3 class="title-sub_section">немного о цифрах</h3>
+            <div class="contain">
+                <div class="seats">
+                    <img src="img/sub-section-icon1.png">
+                    <h4><span>1600 </span>посадочных мест</h4>
+                </div>
+                <div class="history">
+                    <img src="img/sub-section-icon2.png">
+                    <h4><span>350 </span>лет истории</h4>
+                </div>
+            </div>
+        </div>
+        <div class="about-sub_section">
+            <img class="about-img" src="img/sub-section-image.png">
+        </div>
+    </div>
+</section>
+
+<section class="performances">
+    <div class="title-section"><span>наши</span>постановки</div>
+    <div class="carousel-wrapp">
+        <!-- Slider main container -->
+        <div class="swiper-container swiper2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide-wrapp">
+                        <img class="slide-img" src="img/CarouselSlide.jpg">
+                        <img class="search-slide-icon" src="img/search-slide-icon.png">
+                        <h3 class="slide-title">ОСКАР 2020</h3>
+                        <h4 class="slide-date">сентябрь 2020</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-wrapp">
+                        <img class="slide-img" src="img/CarouselSlide2.png">
+                        <img class="search-slide-icon" src="img/search-slide-icon.png">
+                        <h3 class="slide-title">спартак</h3>
+                        <h4 class="slide-date">август 2020</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-wrapp">
+                        <img class="slide-img" src="img/CarouselSlide3.jpg">
+                        <img class="search-slide-icon" src="img/search-slide-icon.png">
+                        <h3 class="slide-title">золотой грамофон</h3>
+                        <h4 class="slide-date">июль 2020</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-wrapp">
+                        <img class="slide-img" src="img/CarouselSlide4.jpg">
+                        <img class="search-slide-icon" src="img/search-slide-icon.png">
+                        <h3 class="slide-title">щелкунчик</h3>
+                        <h4 class="slide-date">май 2020</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rating">
+        <div class="year-rating">
+            <h1 class="year-link">2018</h1>
+            <h1 class="year-link">2019</h1>
+            <h1 class="year-link">2020</h1>
+        </div>
+        <div class="rating-content">
+            <div class="starline">
+                <img class="star" src="img/star.png">
+                <img class="star" src="img/star.png">
+                <img class="star" src="img/star.png">
+                <img class="star" src="img/star.png">
+                <img class="star" src="img/star.png">
+            </div>
+            <h3 class="rating-text">Лучший театр <br>по мнению театральных <br>критиков Парижа</h3>
+        </div>
+</section>
+
+<!--<section class="partners wrap-container">
+    <div class="title-section"><span>партнеры</span>театра</div>
+
+    &lt;!&ndash; Slider main container &ndash;&gt;
+    <div class="swiper-container swiper2">
+        &lt;!&ndash; Additional required wrapper &ndash;&gt;
+        <div class="swiper-wrapper">
+            &lt;!&ndash; Slides &ndash;&gt;
+            <div class="swiper-slide">
+                <img class="partner-slide" src="img/partner.png">
+                <img class="partner-slide" src="img/partner.png">
+            </div>
+            <div class="swiper-slide">
+                <img class="partner-slide" src="img/partner.png">
+                <img class="partner-slide" src="img/partner.png">
+            </div>
+            <div class="swiper-slide">
+                <img class="partner-slide" src="img/partner.png">
+                <img class="partner-slide" src="img/partner.png">
+            </div>
+            <div class="swiper-slide">
+                <img class="partner-slide" src="img/partner.png">
+                <img class="partner-slide" src="img/partner.png">
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+<section class="partners wrap-container">
+    <div class="title-section"><span>партнеры</span>театра</div>
+
+    <div class="partners-xl">
+        <div class="partners-xl-row">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+        </div>
+        <div class="partners-xl-row">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+            <img class="partner-xl" src="img/partner.png">
+        </div>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper-container swiper2 set-swipe-xl">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="partner-slide-container">
+                    <img class="partner-slide" src="img/partner.png">
+                    <img class="partner-slide" src="img/partner.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="contacts wrap-container">
+    <div class="title-section"><span>стать</span>меценатом</div>
+
+    <div class="contact-container">
+        <div class="contact-inform">
+            <div class="column">
+                <a class="contact-inform-link" href="">+7 (812) 123-45-55</a>
+                <a class="contact-inform-link" href="">+7 (812) 123-45-66</a>
+            </div>
+            <div class="column">
+                <a class="contact-inform-link" href="">info@theater.ru</a>
+                <a class="contact-inform-link" href="">г. санкт-петербург, невский 140</a>
+            </div>
+        </div>
+        <form class="contacts-form">
+            <div class="contact-form-input">
+                <div class="contact-form-top-row">
+                    <div class="column">
+                        <input placeholder="Имя" type="text">
+                        <input placeholder="Телефон" type="tel">
+                    </div>
+                    <div class="column">
+                        <input placeholder="Компания" type="text">
+                        <input placeholder="E-mail" type="email">
+                    </div>
+                </div>
+                <textarea class="contact-form-textarea" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="contact-form-bottom">
+                <span class="contact-span">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно закону ФЗ-52.</span>
+                <button>отправить</button>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<footer class="footer wrap-container">
+    <span>(с) Все права защищены. Большой театр. 2020</span>
+    <span>Разработано d-e-n.ru</span>
+</footer>
+
+
+
+
+
+
+<!--Bootstrap script JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!--JQuery script JS-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+
+<!--Swiper script JS-->
+<script src="libs/swiper/swiper-bundle.min.js"></script>
+
+<!--My script JS-->
+<script src="js/script.js"></script>
+</body>
+</html>
